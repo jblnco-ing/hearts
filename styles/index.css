@@ -55,7 +55,7 @@
 }
 #text{
     animation: scale 30s;
-    font-size: 100px;
+    font-size: 50px;
 }
 #text::after{
     content: '';
