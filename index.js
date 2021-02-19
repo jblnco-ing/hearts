@@ -1,8 +1,7 @@
 const container = document.getElementById('container');
-for (let i = 1; i <= 100; i++) {
-    const heart = document.createElement('div')
-    heart.classList.add('heart');
-    container.appendChild(heart);
+const heart = document.getElementsByClassName('heart')[0];
+for (let i = 1; i <= 70; i++) {
+    container.appendChild(heart.cloneNode());
 }
 
 const animateHearts=()=>{
